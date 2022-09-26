@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_banner2s",
+  "info": {
+    "singularName": "home-banner2",
+    "pluralName": "home-banner2s",
+    "displayName": "home_banner2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_heading": {
+      "type": "string",
+      "required": true
+    },
+    "banner_img2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

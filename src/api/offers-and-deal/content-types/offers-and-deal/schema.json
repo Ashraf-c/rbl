@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers_and_deals",
+  "info": {
+    "singularName": "offers-and-deal",
+    "pluralName": "offers-and-deals",
+    "displayName": "Offers and Deal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "Discount": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
